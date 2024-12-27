@@ -223,6 +223,7 @@ img {
 
 .home__scroll i {
   color: var(--white-color);
+  font-family: var(--body-font);
   text-align: center;
   padding-bottom: 2.5rem;
 }
