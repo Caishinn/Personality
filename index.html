@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parallax responsive landing page</title>
+    <title>My Personal Infomation</title>
 
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -12,10 +12,17 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.css"
+      integrity="sha512-eG8C/4QWvW9MQKJNw2Xzr0KW7IcfBSxljko82RuSs613uOAg/jHEeuez4dfFgto1u6SRI/nXmTr9YPCjs1ozBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- ===== HEADER =====-->
-    <header class="l-header">
+    <!--header class="l-header">
       <nav class="nav bd-grid">
         <a href="#" class="nav__logo">Mountain</a>
 
@@ -36,10 +43,11 @@
           </ul>
         </div>
       </nav>
-    </header>
+    </header-->
 
     <main>
       <!-- ===== HOME =====-->
+
       <div class="home">
         <div
           class="parallax home__parallax home__parallax-img1"
@@ -58,21 +66,43 @@
           data-rellax-speed="-3"
         ></div>
 
-        <h1 class="parallax home__title" data-rellax-speed="-6">Mountain</h1>
+        <h1 class="parallax home__title" data-rellax-speed="-6">Hello</h1>
         <span class="parallax home__subtitle" data-rellax-speed="-5"
-          >Mountain explore</span
+          >Welcome ! Nice to meet you.</span
         >
 
         <div class="home__scroll">
-          <a href="#section"><i class="bx bx-mouse"></i></a>
+          <a href="https://caishinn.github.io/My_Music/" target="_blank"
+            ><i class="bx bxs-music"
+              ><span>Click here ! Listen to my music</span></i
+            ></a
+          >
         </div>
       </div>
 
       <!-- ===== SECTION =====-->
       <section class="l-section" id="section">
         <div class="section">
+          <!-- About -->
+
+          <div class="left__col">
+            <div class="img__container">
+              <img src="./my img/profile.png" />
+              <span></span>
+            </div>
+            <h1>Caishin</h1>
+            <p>Full Name</p>
+            <p>Khov Thangchiv</p>
+
+            <!-- About -->
+
+            <ul class="about">
+              <li><span>Designer</span>Job</li>
+              <li><span>Dirty & loyal</span>Type</li>
+              <li><span>23 - April</span>Born</li>
+            </ul>
+          </div>
           <div class="section__data">
-            <h2 class="section__title">Scaling mountains</h2>
             <p class="section__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Doloribus, laboriosam. Esse ipsum culpa laboriosam, totam hic
@@ -80,8 +110,39 @@
               quaerat inventore voluptatem corporis aliquam.
             </p>
           </div>
-
-          <img src="assets/img/imgm.jpg" alt="" class="section__img" />
+          <h2 class="section__title">My Photos..</h2>
+          <img src="./my-photo/p1.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p2.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p3.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p4.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p5.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p6.jpeg" alt="" class="section__img" />
+          <!--img src="./my-photo/p7.jpeg" alt="" class="section__img" /-->
+          <!--img src="./my-photo/p8.jpeg" alt="" class="section__img" /-->
+          <img src="./my-photo/p9.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p10.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p11.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p12.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p13.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p14.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p15.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p16.jpeg" alt="" class="section__img" />
+          <!--img src="./my-photo/p17.jpeg" alt="" class="section__img" /-->
+          <img src="./my-photo/p18.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p19.jpeg" alt="" class="section__img" />
+          <!--img src="./my-photo/p20.jpeg" alt="" class="section__img" /-->
+          <img src="./my-photo/p21.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p22.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p23.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p24.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p25.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p26.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p27.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p28.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p29.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p30.jpeg" alt="" class="section__img" />
+          <img src="./my-photo/p31.jpg" alt="" class="section__img" />
+          <img src="./my-photo/p32.JPG" alt="" class="section__img" />
         </div>
       </section>
     </main>
@@ -97,5 +158,15 @@
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js"
+      integrity="sha512-EC3CQ+2OkM+ZKsM1dbFAB6OGEPKRxi6EDRnZW9ys8LghQRAq6cXPUgXCCujmDrXdodGXX9bqaaCRtwj4h4wgSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new Viewer(document.getElementById("section"));
+    </script>
   </body>
 </html>
