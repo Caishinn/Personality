@@ -24,7 +24,7 @@
     <!-- ===== HEADER =====-->
     <!--header class="l-header">
       <nav class="nav bd-grid">
-        <a href="#" class="nav__logo">Mountain</a>
+        <a href="#" class="nav__logo">Caishin</a>
 
         <div class="nav__toggle" id="nav-toggle">
           <i class="bx bx-menu-alt-right"></i>
@@ -44,6 +44,7 @@
         </div>
       </nav>
     </header-->
+   
 
     <main>
       <!-- ===== HOME =====-->
@@ -72,12 +73,17 @@
         >
 
         <div class="home__scroll">
-          <a href="https://caishinn.github.io/My_Music/" target="_blank"
-            ><i class="bx bxs-music"
-              ><span>Click here ! Listen to my music</span></i
+            <i class="bx bxs-music" id="playbtn"
+              ><span>Click here ! To listen my music</span></i
             ></a
           >
         </div>
+        <audio id="player">
+          <source
+            src="./命运回响 (Echo of Fate) - 海诺-王者荣耀 Lyrics Pinyin (64 kbps).mp3"
+            type="audio/mp3"
+          />
+        </audio>
       </div>
 
       <!-- ===== SECTION =====-->
@@ -104,11 +110,33 @@
           </div>
           <div class="section__data">
             <p class="section__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloribus, laboriosam. Esse ipsum culpa laboriosam, totam hic
-              quidem recusandae eos, numquam iusto aliquid expedita est sapiente
-              quaerat inventore voluptatem corporis aliquam.
+              Hello There , Nice to meet you. <br />
+              Thanks ! for visit my websit. My name Chiv you can call me Caishin. I am a designer. And This is my personal picture & personal
+              info.<br />-----------------------------------<br />
+              My favorites
+              <br>-----------------------------------
+               <br> | - Long trip & Campings - |
             </p>
+            
+            <!-- ===== icon =====-->
+
+            <ul class="ul-icon">
+              <li>
+                <a href="https://www.facebook.com/caishin0423" target="_blank"
+                  ><i class="bx bxl-facebook-circle"></i
+                ></a>
+
+                <a href="https://t.me/thangchiv_k" target="_blank"
+                  ><i class="bx bxl-telegram"></i
+                ></a>
+                
+                <a href="https://www.instagram.com/_caishin_/" target="_blank"
+                  ><i class="bx bxl-instagram-alt"></i
+                ></a>
+                
+              </li>
+            </ul>
+
           </div>
           <h2 class="section__title">My Photos..</h2>
           <img src="./my-photo/p1.jpeg" alt="" class="section__img" />
@@ -145,6 +173,7 @@
           <img src="./my-photo/p32.JPG" alt="" class="section__img" />
         </div>
       </section>
+      
     </main>
 
     <!-- RELLAX JS -->
@@ -158,6 +187,7 @@
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
+    <script src="./assets/js/music.js"></script>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js"

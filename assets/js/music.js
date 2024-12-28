@@ -1,12 +1,22 @@
-var mysong = document.getElementById("mysong");
-var icon = document.getElementById("home__scroll");
+var player = document.getElementById("player");
+let playbtn = document.getElementById("playbtn");
 
-icon.onclick = function () {
-  if (mysong.paused) {
-    mysong.play();
-    icon.i = "images/pause.png";
+var playpause = function () {
+  if (player.paused) {
+    player.play();
   } else {
-    mysong.pause();
-    icon.src = "images/play.png";
+    player.pause();
   }
+};
+
+playbtn.addEventListener("click", playpause);
+
+player.onplay = function () {
+  playbtn.classList.remove("bxs-music");
+  playbtn.classList.add("bx-music");
+};
+
+player.onpause = function () {
+  playbtn.classList.add("bxs-music");
+  playbtn.classList.remove("bx-music");
 };

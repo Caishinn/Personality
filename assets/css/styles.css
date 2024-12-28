@@ -103,7 +103,6 @@ img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -111,7 +110,7 @@ img {
     position: fixed;
     left: 0%;
     top: -100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(64, 98, 120, 0.9);
     width: 100%;
     height: 40%;
     padding: 2rem;
@@ -124,10 +123,13 @@ img {
 
 .nav__logo {
   color: var(--white-color);
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  font-weight: bold;
 }
 
 .nav__item {
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 }
 
 .nav__link {
@@ -138,6 +140,10 @@ img {
   font-size: 1.5rem;
   color: var(--white-color);
   cursor: pointer;
+  margin-right: 1rem;
+}
+.nav__menu {
+  font-size: 1rem;
 }
 
 /*=== Show menu ===*/
@@ -223,14 +229,13 @@ img {
 
 .home__scroll i {
   color: var(--white-color);
-  font-family: var(--body-font);
   text-align: center;
-  padding-bottom: 2.5rem;
 }
 .home__scroll span {
-  font-size: 1.2rem;
+  font-size: 0.85rem;
   display: flex;
   padding: 1rem;
+  font-family: var(--body-font);
 }
 
 /*===== SECTION =====*/
@@ -284,6 +289,8 @@ img {
   padding: 10px 10px;
 }
 
+/*===== ABOUT =====*/
+
 .about {
   justify-content: space-between;
   position: relative;
@@ -312,6 +319,9 @@ img {
   height: 5px;
   width: 100%;
 }
+
+/*===== LEFT Col =====*/
+
 .left__col {
   padding: 25px 14px;
   text-align: center;
@@ -356,7 +366,32 @@ img {
   margin: 0;
 }
 
+/*===== ul icon =====*/
+
+.ul-icon {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.ul-icon a {
+  margin-top: 25px;
+  color: var(--text-color);
+  align-items: center;
+}
+.ul-icon li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.ul-icon i {
+  font-size: 1.6rem;
+  align-items: center;
+}
 /*===== MEDIA QUERIES =====*/
+
 @media screen and (min-width: 945px) {
   .nav {
     height: 4rem;
