@@ -16,6 +16,54 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
+/*=== Right Col ===*/
+.right__col nav {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 0 0.8rem 0;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
+.right__col nav ul {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  padding: 1.5rem 0 0 0;
+  align-items: center;
+}
+.right__col nav ul a {
+  color: var(--text-color);
+  text-decoration: underline;
+  align-items: center;
+  font-size: 1rem;
+}
+.right__col nav ul li {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 0.783);
+  display: flex;
+  align-items: center;
+}
+.right__col nav ul i {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  color: var(--text-color);
+}
+.right__col .button {
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+.right__col .button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
 
 @media screen and (min-width: 768px) {
   :root {
@@ -92,7 +140,7 @@ img {
 }
 
 /*===== NAVBAR =====*/
-.nav {
+/*.nav {
   height: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,6 +323,7 @@ img {
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin: 0.5rem;
+  text-align: center;
 }
 
 .section__text {
@@ -376,6 +425,7 @@ img {
   display: flex;
   position: relative;
   width: 100%;
+  padding: 0 0 2rem 0;
 }
 .ul-icon a {
   margin-top: 25px;
