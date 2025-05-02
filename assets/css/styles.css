@@ -198,6 +198,7 @@ img {
   -ms-flex-pack: center;
   justify-content: center;
   color: var(--white-color);
+  text-align: center;
 }
 
 .home__title {
@@ -215,7 +216,7 @@ img {
 
 .home__scroll {
   position: absolute;
-  bottom: 2.5rem;
+  bottom: 5rem;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
